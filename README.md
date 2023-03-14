@@ -106,7 +106,7 @@ A Restful API written in Django that communicates with OpenAI API via POST
     ```
     
     *Some additional parameters can be sent in the POST request, that affect the execution of the AI model.
-    * Example of a prompt with multiple optional parameters
+    * Example of a POST request with multiple optional parameters
     ```text
         {
         "model": "gpt-3.5-turbo-0301",
