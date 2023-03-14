@@ -25,6 +25,12 @@ A Restful API written in Django that communicates with OpenAI API via POST
             cd openai_restapi
         ```
     2. Create and activate a virtual environment:
+    * ##### On Windows
+        ```bash
+            virtualenv  venv -p python3
+            .\venv\Scripts\activate
+        ```
+    * ##### On Linux
         ```bash
             virtualenv  venv -p python3
             source venv/bin/activate
