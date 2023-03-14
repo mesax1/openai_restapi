@@ -74,8 +74,8 @@ A Restful API written in Django that communicates with OpenAI API via POST
     ```bash
         echo $OPENAI_API_KEY
     ```
-* #### Launch API and use it
-    Launch the server using:
+## Launch API and execution
+* Launch the server using:
     ```bash
         python manage.py runserver
     ```
