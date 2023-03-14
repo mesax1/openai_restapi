@@ -60,7 +60,7 @@ A Restful API written in Django that communicates with OpenAI API via POST
     * ##### On Windows
     Run the following in the cmd prompt, replacing <yourkey> with your OpenAI API key:
     ```bash
-        setx OPENAI_API_KEY “<yourkey>”
+        setx OPENAI_API_KEY <yourkey>
     ```
     Open a new cmd prompt, validate that the environment variable has been set by typing
     ```bash
