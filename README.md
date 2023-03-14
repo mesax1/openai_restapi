@@ -83,13 +83,30 @@ A Restful API written in Django that communicates with OpenAI API via POST
     ```
         http://localhost:8000/chat-free/
     ```
-    Make a POST request
+* #### Make a POST request
+    The POST request requires at least 2 inputs: model and prompt.
+   * **model** can be either
+    ``` text
+        "gpt-3.5-turbo-0301"
+    ```
+    or
+    ``` text
+        "text-davinci-003"
+    ```
+    
+    * **prompt** would be the question that you would like to ask to the AI
+    ``` text
+        "¿Que precio tiene el kellogs?"
+    ```
+    
+    *Some additional parameters can be sent in the POST request, that affect the execution of the AI model.
+    * Example of a prompt with multiple optional parameters
     ```text
         {
         "model": "gpt-3.5-turbo-0301",
         "prompt": "Respondeme cualquier cosa en francés, en 1 párrafo",
         "temperature": 1.0,
-        "max_tokens": 20,
+        "max_tokens": 200,
         "frequency_penalty": 1,
         "presence_penalty": 1
     }
